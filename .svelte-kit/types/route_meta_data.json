@@ -1,0 +1,21 @@
+{
+	"/": [
+		"src/routes/+layout.ts",
+		"src/routes/+layout.ts"
+	],
+	"/docs": [
+		"src/routes/+layout.ts"
+	],
+	"/milestone": [
+		"src/routes/+layout.ts"
+	],
+	"/store": [
+		"src/routes/+layout.ts"
+	],
+	"/tools": [
+		"src/routes/+layout.ts"
+	],
+	"/website": [
+		"src/routes/+layout.ts"
+	]
+}
