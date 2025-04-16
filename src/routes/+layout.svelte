@@ -8,7 +8,7 @@
     <title>VELMA</title>
 </svelte:head>
 
-{#if $page.url.pathname != "/velma/website/"}
+{#if $page.url.pathname != "/enes100-velma/website/"}
     <div class="page">
         <Index></Index>
         <slot></slot>
