@@ -29,6 +29,9 @@
                     <a data-sveltekit-replacestate href="{base}/docs">Documentation</a>
                 </li>
                 <li>
+                    <a data-sveltekit-replacestate href="{base}/milestone">Milestone 7</a>
+                </li>
+                <li>
                     <a data-sveltekit-replacestate href="{base}/store">School Store</a>
                 </li>
                 <li>
