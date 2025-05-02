@@ -62,7 +62,7 @@
         display: flex;
         flex-direction: column;
         height: auto;
-        margin: 0% 6%;
+        margin: 0% 3%;
         margin-bottom: 3%;
     }
     @media (max-width: 900px) {
