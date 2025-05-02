@@ -30,7 +30,7 @@
                             let topography = Math.floor(Math.random() * 3);
                             let fire = document.getElementById("objectives");
                             if (fire && fire instanceof HTMLDivElement) {
-                                fire.innerHTML = `Flames lit: ${lit[flames]}<br>Topography: ${tops[topography]}`;
+                                fire.innerHTML = `<div>Flames lit: ${lit[flames]}<br>Topography: ${tops[topography]}</div> <img src="/img/mission_diagram_fire.png" alt="fire mission diagram" width="125"> `;
                             }
                             break;
                         case "seed":
@@ -38,7 +38,7 @@
                             let plot = Math.floor(Math.random() * 4);
                             let seed = document.getElementById("objectives");
                             if (seed && seed instanceof HTMLDivElement) {
-                                seed.innerHTML = `Plot with plantable substrate: ${plots[plot]}`;
+                                seed.innerHTML = `<div>Plantable plot: ${plots[plot]}</div><img src="/img/mission_diagram_seed.png" alt="seed mission diagram" width="125">`;
                             }
                             break;
                         case "materials":
@@ -53,7 +53,7 @@
                             break;
                         case "crash":
                             let orientations = ["Short", "Long"];
-                            let sides = ["Facing the OTV", "Facing the Arena"];
+                            let sides = ["Facing the OTV", "Facing the Obstacles"];
                             let orientation = Math.floor(Math.random() * 2);
                             let side = Math.floor(Math.random() * 2);
                             let crash = document.getElementById("objectives");
@@ -167,6 +167,9 @@
     #objectives {
         border: 1px solid white;
         background-color: rgba(0, 0, 0, 0.2);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
     .text {
         overflow: hidden;
