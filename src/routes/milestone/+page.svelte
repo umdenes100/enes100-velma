@@ -30,7 +30,7 @@
                             let topography = Math.floor(Math.random() * 3);
                             let fire = document.getElementById("objectives");
                             if (fire && fire instanceof HTMLDivElement) {
-                                fire.innerHTML = `<div>Flames lit: ${lit[flames]}<br>Topography: ${tops[topography]}</div> <img src="{base}/img/mission_diagram_fire.png" alt="fire mission diagram" width="125"> `;
+                                fire.innerHTML = `<div>Flames lit: ${lit[flames]}<br>Topography: ${tops[topography]}</div> <img src="/enes100-velma/img/mission_diagram_fire.png" alt="fire mission diagram" width="125"> `;
                             }
                             break;
                         case "seed":
@@ -38,7 +38,7 @@
                             let plot = Math.floor(Math.random() * 4);
                             let seed = document.getElementById("objectives");
                             if (seed && seed instanceof HTMLDivElement) {
-                                seed.innerHTML = `<div>Plantable plot: ${plots[plot]}</div><img src="{base}/img/mission_diagram_seed.png" alt="seed mission diagram" width="125">`;
+                                seed.innerHTML = `<div>Plantable plot: ${plots[plot]}</div><img src="/enes100-velma/img/mission_diagram_seed.png" alt="seed mission diagram" width="125">`;
                             }
                             break;
                         case "materials":
