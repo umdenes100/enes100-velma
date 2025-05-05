@@ -143,6 +143,7 @@
         width: 300px;
         padding: 5px 10px;
         line-height: normal;
+        flex-direction: row;
     }
     }
     @media (min-width: 1001px) {
@@ -162,13 +163,13 @@
         padding: 5px 10px;
         line-height: normal;
         margin: 5px;
+        flex-direction: column;
     }
     }
     #objectives {
         border: 1px solid white;
         background-color: rgba(0, 0, 0, 0.2);
         display: flex;
-        flex-direction: row;
         justify-content: space-between;
     }
     .text {
