@@ -79,6 +79,18 @@
                                 water.innerHTML = `Water level: ${levels[level]}<br>Pollutants Present: ${pollutants[polluted]}`;
                             }
                             break;
+                        // hydrogen cell mission
+                        // added 9/8/25 by Maggie Crooks
+                        case "hydrogen":
+                            let voltages = ["1V", "2V", "3V", "4V", "5V"];
+                            let leds = ["White", "Red", "Yellow", "Green", "Blue"];
+                            let voltage = Math.floor(Math.random() * 5);
+                            let led = Math.floor(Math.random() * 5);
+                            let hydrogen = document.getElementById("objectives");
+                            if (hydrogen && hydrogen instanceOf HTMLDivElement) {
+                                hydrogen.innerHTML = `Output voltage: ${voltages[voltage]}<br>LED color: ${leds[led]}`;
+                            }
+                            break;
                     }
                 } else {
                     console.error;
@@ -106,6 +118,7 @@
                     <option value="data">Data</option>
                     <option value="materials">Materials</option>
                     <option value="crash">Crash</option>
+                    <option value="hydrogen">Hydrogen</option>
                 </select>
             </label><br />
             <button id="randomize">Get Randomization</button>
