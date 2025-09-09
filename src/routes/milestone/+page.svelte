@@ -51,16 +51,16 @@
                                 mat.innerHTML = `Material: ${materials[material]}<br>Weight: ${weights[weight]}`;
                             }
                             break;
-                        case "crash":
-                            let orientations = ["Short", "Long"];
-                            let sides = ["Facing the OTV", "Facing the Obstacles"];
-                            let orientation = Math.floor(Math.random() * 2);
-                            let side = Math.floor(Math.random() * 2);
-                            let crash = document.getElementById("objectives");
-                            if (crash && crash instanceof HTMLDivElement) {
-                                crash.innerHTML = `Side of box facing OTV: ${orientations[orientation]}<br>Abnormality: ${sides[side]}`;
-                            }
-                            break;
+                        // case "crash":
+                        //     let orientations = ["Short", "Long"];
+                        //     let sides = ["Facing the OTV", "Facing the Obstacles"];
+                        //     let orientation = Math.floor(Math.random() * 2);
+                        //     let side = Math.floor(Math.random() * 2);
+                        //     let crash = document.getElementById("objectives");
+                        //     if (crash && crash instanceof HTMLDivElement) {
+                        //         crash.innerHTML = `Side of box facing OTV: ${orientations[orientation]}<br>Abnormality: ${sides[side]}`;
+                        //     }
+                        //     break;
                         case "data":
                             let pucks = ["Magnetic", "Non-magnetic"];
                             let puck = Math.floor(Math.random() * 2);
@@ -80,15 +80,13 @@
                             }
                             break;
                         // hydrogen cell mission
-                        // added 9/8/25 by Maggie Crooks
+                        // added 9/9/25 by Maggie Crooks
                         case "hydrogen":
-                            let voltages = ["1V", "2V", "3V", "4V", "5V"];
                             let leds = ["White", "Red", "Yellow", "Green", "Blue"];
-                            let voltage = Math.floor(Math.random() * 5);
                             let led = Math.floor(Math.random() * 5);
                             let hydrogen = document.getElementById("objectives");
-                            if (hydrogen && hydrogen instanceOf HTMLDivElement) {
-                                hydrogen.innerHTML = `Output voltage: ${voltages[voltage]}<br>LED color: ${leds[led]}`;
+                            if (hydrogen && hydrogen instanceof HTMLDivElement) {
+                                hydrogen.innerHTML = `LED color: ${leds[led]}<br><h1 style="color:${leds[led]}">&#9679</h1>`;
                             }
                             break;
                     }
@@ -117,7 +115,7 @@
                     <option value="seed">Seed</option>
                     <option value="data">Data</option>
                     <option value="materials">Materials</option>
-                    <option value="crash">Crash</option>
+                    <!-- <option value="crash">Crash</option> -->
                     <option value="hydrogen">Hydrogen</option>
                 </select>
             </label><br />
