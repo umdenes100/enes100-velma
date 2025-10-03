@@ -12,15 +12,6 @@
     {#if visible}
         <div class="directory">
             <h3>Menu</h3>
-            <!-- <p>
-                <a href="{base}">Home</a><br>
-                <a href="{base}/store">School Store</a><br>
-                <a href="{base}/milestone">Milestone 7</a><br>
-                <a href="/maintenance">Maintenance</a><br />
-                <a href="{base}/tools">Tool Check</a><br>
-                <a href="/queue">Help Queue</a>
-                <a href="{base}/docs">Documentation</a><br>
-            </p> -->
             <ul>
                 <li>
                     <a data-sveltekit-replacestate href="{base}">Home</a>
