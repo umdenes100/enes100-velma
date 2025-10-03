@@ -31,7 +31,7 @@
         </div>
         <div class="app">
             <a href="/safety">
-                <img src="/img/safety.png" alt="app" height="200px" />
+                <img src="{base}/img/safety.png" alt="app" height="200px" />
             </a>
             Safety Log
         </div>
