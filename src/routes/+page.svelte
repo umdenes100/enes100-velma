@@ -29,12 +29,12 @@
             </a>
             Tool Check
         </div>
-        <!-- <div class="app">
-            <a href="/queue">
-                <img src="/img/queue.png" alt="app" height="200px" />
+        <div class="app">
+            <a href="/safety">
+                <img src="/img/safety.png" alt="app" height="200px" />
             </a>
-            Help Queue
-        </div> -->
+            Safety Log
+        </div>
         <div class="app">
             <a rel="preload" href="{base}/docs">
                 <img src="{base}/img/docs.png" alt="app" height="200px" />
