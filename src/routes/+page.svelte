@@ -30,7 +30,7 @@
             Tool Check
         </div>
         <div class="app">
-            <a href="/safety">
+            <a rel="preload" href="{base}/safety">
                 <img src="{base}/img/safety.png" alt="app" height="200px" />
             </a>
             Safety Log
