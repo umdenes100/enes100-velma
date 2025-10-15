@@ -11,12 +11,12 @@
             </a>
             School Store
         </div>
-        <div class="app">
+        <!-- <div class="app">
             <a href="{base}/milestone">
                 <img src="{base}/img/milestone.png" alt="app" height="200px" />
             </a>
             Milestone 7
-        </div>
+        </div> -->
         <!-- <div class="app">
             <a href="/maintenance">
                 <img src="/img/maintenance.png" alt="app" height="200px" />
