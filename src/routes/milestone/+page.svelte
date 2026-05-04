@@ -35,21 +35,21 @@
                             break;
                         case "seed":
                             // let plots = ["A", "B", "C", "D"];
-                            let plot = Math.floor(Math.random() * 4);
+                            let plot = Math.floor(Math.random() * 5);
                             let seed = document.getElementById("objectives");
                             if (seed && seed instanceof HTMLDivElement) {
                                 // seed.innerHTML = `<div>Plantable plot: ${plots[plot]}</div><img src="/enes100-velma/img/mission_diagram_seed.png" alt="seed mission diagram" width="125">`;
                                 if (plot == 1) {
-                                    seed.innerHTML = `<div>Plot setup: ${plot}</div><img src="/enes100-velma/static/img/seed_plot_1.png" alt="seed mission diagram" width="125">`;
+                                    seed.innerHTML = `<div>Plot setup: both plantable</div><img src="/enes100-velma/static/img/seed_plot_1.png" alt="seed mission diagram" width="125">`;
                                 }
                                 if (plot == 2) {
-                                    seed.innerHTML = `<div>Plot setup: ${plot}</div><img src="/enes100-velma/img/seed_plot_2.png" alt="seed mission diagram" width="125">`;
+                                    seed.innerHTML = `<div>Plot setup: neither plantable</div><img src="/enes100-velma/img/seed_plot_2.png" alt="seed mission diagram" width="125">`;
                                 }
                                 if (plot == 3) {
-                                    seed.innerHTML = `<div>Plot setup: ${plot}</div><img src="/enes100-velma/img/seed_plot_3.png" alt="seed mission diagram" width="125">`;
+                                    seed.innerHTML = `<div>Plot setup: plantable-adjacent</div><img src="/enes100-velma/img/seed_plot_3.png" alt="seed mission diagram" width="125">`;
                                 }
                                 if (plot == 4) {
-                                    seed.innerHTML = `<div>Plot setup: ${plot}</div><img src="/enes100-velma/img/seed_plot_4.png" alt="seed mission diagram" width="125">`;
+                                    seed.innerHTML = `<div>Plot setup: plantable-diagonal</div><img src="/enes100-velma/img/seed_plot_4.png" alt="seed mission diagram" width="125">`;
                                 }
                             }
                             break;
